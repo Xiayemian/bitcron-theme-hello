@@ -384,6 +384,9 @@ article {
             line-height: 1.8em;
         }
     }
+    img {
+    	max-width: 100%;
+    }
     iframe, embed {
         width: 100%;
         border-top: 1px solid #eee;

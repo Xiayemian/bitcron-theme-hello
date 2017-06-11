@@ -38,6 +38,11 @@ html
                             a(href=category.url)= category.title
                             span= "%s篇" %category.posts_count
                     
+                    h3 友情链接
+                    ul
+                    	li
+                    		a(href="网址") 网站名称
+                    		span= "描述"
 
             footer
                 span= "©%s %s - " %(site.now.year, site.title)
