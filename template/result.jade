@@ -7,7 +7,7 @@ block content
 	main
 		section.content
 			h1= "包含 " + request.args.s + " 关键字的文章"
-			.meta= "共搜索到%s篇文章" %(d.get_data(type="post", keywords=request.args.s, return_count=true, with_page=false))
+			.meta= "共搜索到%s篇文章" %(d.get_data(types="post", keywords=request.args.s, return_count=true, with_page=false))
 
 			search_posts = posts.search(keywords=request.args.s, limit=30)
 			ul: for post in search_posts: li

@@ -9,7 +9,7 @@ block content
 	main
 		section.content
 			h1= posts.category.title
-			.meta= "此类别下共有%s篇文章" %(d.get_data(type="post", path=posts.category.filename, return_count=true, with_page=false))
+			.meta= "此类别下共有%s篇文章" %(d.get_data(types="post", path=posts.category.filename, return_count=true, with_page=false))
 			.info
 				posts.category.content
 			ul: for post in posts: li

@@ -46,7 +46,7 @@ html
 
             footer
                 span= "©%s %s - " %(site.now.year, site.title)
-                    a(href="/feed")= "%s篇文章等着你订阅" %(d.get_data(return_count=true, with_page=false))
+                    a(href="/feed")= "%s篇文章等着你订阅" %(d.get_data(types="post", return_count=true, with_page=false))
                 span ♥ 主题
                     a(href="https://blog.shuiba.co/bitcron-theme-hello") 「你好呀」
                     | - 由

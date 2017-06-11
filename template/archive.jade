@@ -7,9 +7,9 @@ block content
 	main
 		section.content
 			h1 文章归档
-			.meta= "本博客共有%s篇文章" %(d.get_data(type="post", return_count=true, with_page=false))
+			.meta= "本博客共有%s篇文章" %(d.get_data(types="post", return_count=true, with_page=false))
 
-			entries = d.get_data(type="post", limit=30, sort="desc").group("-date:year")
+			entries = d.get_data(types="post", limit=30, sort="desc").group("-date:year")
 			for year, year_posts in entries
 		        h2= year
 			        year_start_date = "%s-1-1" %year
