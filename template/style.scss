@@ -398,7 +398,7 @@ article {
         padding: 3px;
     }
     & .toc {
-        margin: 0 50px 2em;
+        margin: 0 5% 2em;
         border: 1px solid #eee;
         padding: 15px 20px 0;
         ul {
@@ -598,9 +598,6 @@ footer {
     article {
         h1, h2, h3, h4, h5, h6, p, dl, legend, ul, ol {
             padding: $padding;
-        }
-        & .toc {
-            margin: 0 25px 2em;
         }
         hr {
         	margin: 1em 25px;
