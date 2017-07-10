@@ -201,12 +201,12 @@ pre br {
 }
 sup {
     vertical-align: super;
-    font-size: smaller;
-    line-height: 0;
 }
 sub {
     vertical-align: sub;
-    font-size: smaller;
+}
+sup, sub {
+    font-size: 0.8em;
     line-height: 0;
 }
 ul {
@@ -397,6 +397,18 @@ article {
     .post a {
         border-bottom: 1px solid;
         padding: 3px;
+    }
+    .post sup, .post sub {
+        a {
+            border-bottom: 0;
+            padding: 0;
+            &::before {
+                content: "[";
+            }
+            &::after {
+                content: "]";
+            }
+        }
     }
     & .toc {
         margin: 0 5% 2em;
