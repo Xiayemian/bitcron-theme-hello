@@ -40,7 +40,7 @@ tags: theme, work
 ```
 
 <figure>
-	<img src="//test-photo.jpg" alt="这是 alt" />
+	<img src="/test-photo.jpg" alt="这是 alt" />
 	<figcaption>这是可写可不写的 figcaption</figcaption>
 </figure>
 
