@@ -515,7 +515,7 @@ section#comments {
     display: none;
 }
 .doc_comments #new_comment_form .comment_trigger .trigger_title {
-    margin-left: 60px!important;
+    margin-left: 65px!important;
     line-height: 50px!important;
 }
 .doc_comments #new_comment_form {
@@ -557,7 +557,7 @@ section#comments {
     background-color: inherit!important;
     color: #999!important;
     @include transition(0.5s);
-    margin-left: 60px!important;
+    margin-left: 65px!important;
     font-size: 0.9em!important;
     font-weight: bold!important;
     &:hover {
@@ -602,7 +602,7 @@ section#comments {
 }
 .comment_content {
     color: #333;
-    margin-left: 60px;
+    margin-left: 65px;
 }
 
 /* Sidebar ----------------------------------*/
