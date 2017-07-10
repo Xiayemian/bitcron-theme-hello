@@ -4,7 +4,7 @@ url: sample-content-markdown
 tags: theme, work
 
 
-换主题的时候常看到[模板测试文本](/sample-content)，于是拷贝了一份放在博客里，为了方便查看调试效果。这个测试文本由 html 写成，虽然内容涵盖广，但因为都是英文而且有些冗杂，我便打算用 Markdown 写一个**更适合我自己**的精简版。
+换主题的时候常看到模板测试文本，于是拷贝了一份放在博客里，为了方便查看调试效果。这个测试文本由 html 写成，虽然内容涵盖广，但因为都是英文而且有些冗杂，我便打算用 Markdown 写一个**更适合我自己**的精简版。
 
 ## 这是二级标题
 
@@ -25,22 +25,22 @@ tags: theme, work
 ### 通常写法
 
 ```
-![这是 alt](//cdn.shuiba.co/2017/170614-01.jpg '这是可写可不写的 title')
+![这是 alt](/test-photo.jpg '这是可写可不写的 title')
 ```
 
-![这是 alt](//cdn.shuiba.co/2017/170614-01.jpg '这是可写可不写的 title')
+![这是 alt](/test-photo.jpg '这是可写可不写的 title')
 
 ### figure 写法
 
 ```html
 <figure>
-	<img src="//cdn.shuiba.co/2017/170614-01.jpg" alt="这是 alt" />
+	<img src="/test-photo.jpg" alt="这是 alt" />
 	<figcaption>这是可写可不写的 figcaption</figcaption>
 </figure>
 ```
 
 <figure>
-	<img src="//cdn.shuiba.co/2017/170614-01.jpg" alt="这是 alt" />
+	<img src="//test-photo.jpg" alt="这是 alt" />
 	<figcaption>这是可写可不写的 figcaption</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ tags: theme, work
 3.1 | | 3.3
 ```
 
-更多 Bitcron 中的表格技巧请查看[「关于 Bitcron 表格的各种」](/about-bitcron-table)。
+更多 Bitcron 中的表格技巧请查看[「关于 Bitcron 表格的各种」](http://blog.shuiba.co/about-bitcron-table)。
 
 ## 列表
 
