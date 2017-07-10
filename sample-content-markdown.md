@@ -1,8 +1,10 @@
----
 date: 2017-06-14 10:52 
 title: 模板测试文本 Markdown
 url: sample-content-markdown
 tags: theme, work
+
+**注意**：以下内容可能在 GitHub 和 Bitcron 中呈现不同的形式。最终效果以 Bitcron 为准。
+
 ---
 
 换主题的时候常看到模板测试文本，于是拷贝了一份放在博客里，为了方便查看调试效果。这个测试文本由 html 写成，虽然内容涵盖广，但因为都是英文而且有些冗杂，我便打算用 Markdown 写一个**更适合我自己**的精简版。
