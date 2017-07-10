@@ -514,6 +514,9 @@ section#comments {
 .doc_comments .comments_block_title {
     display: none;
 }
+.doc_comments #new_comment_form .comment_trigger .trigger_title {
+    margin-left: 60px!important;
+}
 .doc_comments #new_comment_form {
     background-color: inherit!important;
     border: 0!important;
@@ -538,26 +541,66 @@ section#comments {
     cursor: pointer;
 }
 .doc_comments .comments .comment {
-    padding: 1em 0!important;
+    padding: 1.5em 0 1em!important;
     background-color: inherit!important;
     margin: 0!important;
     border-radius: 0!important;
     border: 0!important;
     border-top: 1px solid #eee!important;
 }
-.doc_comments .comments .comment .author b, .doc_comments .comments .comment .author .reply {
+.doc_comments .comments .comment .author {
+    padding-bottom: 0!important;
+}
+.doc_comments .comments .comment .author b {
     background-color: inherit!important;
     color: #999!important;
     @include transition(0.5s);
+    margin-left: 60px!important;
+    font-size: 0.9em!important;
+    font-weight: bold!important;
     &:hover {
-        color: $pcolour!important;
+        color: #ff0000!important;
     }
 }
-.doc_comments .comments .comment .author small, .doc_comments .comments .comment .author .reply {
-    font-size: 0.8em!important;
+.doc_comments .comments .comment .author .reply {
+    font-size: 0.75em!important;
+    background: inherit!important;
+    color: #f5f5f5!important;
+    @include transition(0.5s);
+    padding: 4px 5px 3px;
+    margin-top: -17px;
+    text-transform: uppercase;
+    &:hover {
+        background: #ccc!important;
+        color: #fff!important;
+    }
+    &::before {
+        content: "\56DE \590D";
+        color: #ccc;
+        margin-right: 4px;
+    }
+}
+.doc_comments .comments .comment .author small {
+    float: right;
+    margin-top: -45px;
+    background: #ddd;
+    color: #fff;
+    padding: 4px 5px 2px;
+    font-size: 0.8em;
+}
+.doc_comments .comments .comment .author .avatar, .doc_comments #new_comment_form .comment_trigger .avatar {
+    width: 50px!important;
+    height: 50px!important;
+    img {
+        border-radius: 5%!important;
+    }
+}
+.doc_comments .comments .comment .p_part {
+    margin: 0!important;
 }
 .comment_content {
     color: #333;
+    margin-left: 60px;
 }
 
 /* Sidebar ----------------------------------*/
@@ -586,6 +629,15 @@ footer {
     font-size: 0.8em;
     line-height: 3em;
     color: #bbb;
+}
+
+/* Others ----------------------------------*/
+#back_to_top {
+    background: #fff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+    span {
+        color: #ccc;
+    }
 }
 
 /* Responsive ----------------------------------*/
