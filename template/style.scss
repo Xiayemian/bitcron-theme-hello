@@ -558,6 +558,9 @@ section#comments {
 .doc_comments .comments .comment .author {
     padding: 1em 0 0!important;
 }
+.doc_comments .comments .comment .author .author-name {
+    float: left;
+}
 .doc_comments .comments .comment .author b {
     background-color: inherit!important;
     color: #999!important;
@@ -574,8 +577,7 @@ section#comments {
     background: inherit!important;
     color: transparent!important;
     @include transition(0.5s);
-    padding: 4px 5px 3px;
-    text-transform: uppercase;
+    padding: 4px 3px;
     &:hover {
         background: #ccc!important;
         color: #fff!important;
@@ -587,12 +589,11 @@ section#comments {
     }
 }
 .doc_comments .comments .comment .author small {
-    float: right;
-    margin-top: -37px;
-    background: #ddd;
-    color: #fff;
-    padding: 4px 5px 2px;
-    font-size: 0.7em;
+    float: left;
+    margin: 0!important;
+    color: #ccc;
+    padding-top: 5px;
+    font-size: 0.8em;
 }
 .doc_comments .comments .comment .author .avatar, .doc_comments #new_comment_form .comment_trigger .avatar {
     width: 48px!important;
@@ -610,6 +611,7 @@ section#comments {
 .doc_comments .comments .comment .comment_content {
     color: #333;
     margin-left: 62px;
+    margin-top: 21px;
 }
 .doc_comments .comments .sub_comments {
     padding-left: 62px!important;
