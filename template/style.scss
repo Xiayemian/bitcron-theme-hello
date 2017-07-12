@@ -566,6 +566,7 @@ section#comments {
     color: #999!important;
     @include transition(0.5s);
     margin-left: 62px!important;
+    margin-right: 2px;
     font-size: 0.9em!important;
     font-weight: bold!important;
     &:hover {
@@ -592,7 +593,7 @@ section#comments {
     float: left;
     margin: 0!important;
     color: #ccc;
-    padding-top: 5px;
+    padding-top: 4px;
     font-size: 0.8em;
 }
 .doc_comments .comments .comment .author .avatar, .doc_comments #new_comment_form .comment_trigger .avatar {
@@ -688,6 +689,20 @@ footer {
     	&::before {
     		margin-left: -20px;
     	}
+    }
+    .doc_comments .comments .comment .author .avatar, .doc_comments #new_comment_form .comment_trigger .avatar {
+    width: 36px!important;
+    height: 36px!important;
+    }
+    .doc_comments .comments .comment .comment_content, .doc_comments #new_comment_form .comment_trigger .trigger_title, .doc_comments .comments .comment .author b {
+        margin-left: 48px!important;
+    }
+    .doc_comments .comments .comment .p_part {
+        font-size: 0.95em;
+        line-height: 2em;
+    }
+    .doc_comments .comments .sub_comments {
+        padding-left: 48px!important;
     }
 }
 
