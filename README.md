@@ -13,7 +13,7 @@
 
 # 安装配置
 
-从[码仓](https://github.com/shuibaco/bitcron-theme-hello)下载 template 文件夹，解压后放入根目录中。正确形式应为 `根目录/template/index.jade`。
+下载 template 文件夹，解压后放入根目录中。正确形式应为 `根目录/template/index.jade`。
 
 ## 基本
 
