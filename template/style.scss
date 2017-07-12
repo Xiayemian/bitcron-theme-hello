@@ -542,8 +542,13 @@ section#comments {
     border-radius: 0!important;
     cursor: pointer;
 }
+
+/* Comment list */
+.doc_comments .comments ul {
+    margin: 0;
+}
 .doc_comments .comments .comment {
-    padding: 1.5em 0 1em!important;
+    padding: 0!important;
     background-color: inherit!important;
     margin: 0!important;
     border-radius: 0!important;
@@ -551,7 +556,7 @@ section#comments {
     border-top: 1px solid #eee!important;
 }
 .doc_comments .comments .comment .author {
-    padding-bottom: 0!important;
+    padding: 1em 0 0!important;
 }
 .doc_comments .comments .comment .author b {
     background-color: inherit!important;
@@ -584,7 +589,7 @@ section#comments {
 }
 .doc_comments .comments .comment .author small {
     float: right;
-    margin-top: -45px;
+    margin-top: -38px;
     background: #ddd;
     color: #fff;
     padding: 4px 5px 2px;
@@ -597,12 +602,18 @@ section#comments {
         border-radius: 5%!important;
     }
 }
-.doc_comments .comments .comment .p_part {
-    margin: 0!important;
+.doc_comments .comments .comment .author .avatar {
+    top: 1em!important;
 }
-.comment_content {
+.doc_comments .comments .comment .p_part {
+    margin: 0 0 0.7em!important;
+}
+.doc_comments .comments .comment .comment_content {
     color: #333;
     margin-left: 65px;
+}
+.doc_comments .comments .sub_comments {
+    padding-left: 1em!important;
 }
 
 /* Sidebar ----------------------------------*/
