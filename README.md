@@ -32,7 +32,7 @@
 - **各分类页面显示文章数**：category.jade 第7行 `+posts.set_min_per_page(30)`
 - **搜索页面显示文章数**：result.jade 第12行 `limit=30`
 - **point colour**：style.scss 第2行 `$pcolour: #ff0000;`
-- **图片样式**：使用以下代码插入图片则拥有100%宽度。更多请参考[「模板测试文本 Markdown」](/sample-content-markdown)。
+- **图片样式**：使用以下代码插入图片则拥有100%宽度。更多请参考[「模板测试文本 Markdown」](https://blog.shuiba.co/sample-content-markdown)。
 
 ```html
 <figure>
