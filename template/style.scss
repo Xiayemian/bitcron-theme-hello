@@ -616,7 +616,7 @@ section#comments {
 }
 .doc_comments .comments .sub_comments {
     padding-left: 62px!important;
-    .sub_comments {
+    .sub_comments .sub_comments {
         padding-left: 0!important;
     }
 }
@@ -703,6 +703,9 @@ footer {
     }
     .doc_comments .comments .sub_comments {
         padding-left: 48px!important;
+        .sub_comments {
+        padding-left: 0!important;
+    }
     }
 }
 
