@@ -566,7 +566,6 @@ section#comments {
     color: #999!important;
     @include transition(0.5s);
     margin-left: 62px!important;
-    margin-right: 2px;
     font-size: 0.9em!important;
     font-weight: bold!important;
     &:hover {
@@ -578,15 +577,12 @@ section#comments {
     background: inherit!important;
     color: transparent!important;
     @include transition(0.5s);
-    padding: 4px 3px;
-    &:hover {
-        background: #ccc!important;
-        color: #fff!important;
-    }
     &::before {
         content: "\56DE \590D";
-        color: #ccc;
+        color: #fff;
         margin-right: -2em;
+        background: #ddd;
+        padding: 3px 4px 2px;
     }
 }
 .doc_comments .comments .comment .author small {
