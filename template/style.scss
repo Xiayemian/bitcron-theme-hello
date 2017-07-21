@@ -690,8 +690,8 @@ footer {
     	}
     }
     .doc_comments .comments .comment .author .avatar, .doc_comments #new_comment_form .comment_trigger .avatar {
-    width: 36px!important;
-    height: 36px!important;
+        width: 36px!important;
+        height: 36px!important;
     }
     .doc_comments .comments .comment .comment_content, .doc_comments #new_comment_form .comment_trigger .trigger_title, .doc_comments .comments .comment .author b {
         margin-left: 48px!important;
@@ -703,8 +703,8 @@ footer {
     .doc_comments .comments .sub_comments {
         padding-left: 48px!important;
         .sub_comments {
-        padding-left: 0!important;
-    }
+            padding-left: 0!important;
+        }
     }
 }
 
