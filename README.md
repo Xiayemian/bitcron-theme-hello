@@ -50,6 +50,6 @@
 - **设置管理者名字**：Dashboard → Advanced → Admin Name。如果网站名称和管理者名字不同，填写此项有助于在 RSS 订阅器中有较好的呈现。比如 Feedly 中会显示 `网站名 / by 管理者名 / 时间`。
 - **图片防盗链**：Dashboard → Advanced → Anti Hotlinking: Yes。
 
-## 欢迎使用支付宝赞助
+## 支付宝赞助
 
 ![alipay.jpg](https://raw.githubusercontent.com/shuibaco/donate/master/alipay.jpg)
