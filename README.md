@@ -13,7 +13,7 @@
 
 ## 安装配置
 
-下载 template 文件夹，解压后放入根目录中。正确形式应为 `根目录/template/index.jade`。
+[下载](https://github.com/shuibaco/bitcron-theme-hello) template 文件夹，解压后放入根目录中。正确形式应为 `根目录/template/index.jade`。
 
 ### 基本
 
@@ -32,7 +32,7 @@
 - **各分类页面显示文章数**：category.jade 第7行 `+posts.set_min_per_page(30)`
 - **搜索页面显示文章数**：result.jade 第12行 `limit=30`
 - **point colour**：style.scss 第2行 `$pcolour: #ff0000;`
-- **图片样式**：使用以下代码插入图片则拥有100%宽度。更多请参考[「模板测试文本 Markdown」](https://blog.shuiba.co/sample-content-markdown)。
+- **图片样式**：使用以下代码插入图片则拥有100%宽度
 
 ```html
 <figure>
@@ -50,9 +50,6 @@
 - **设置管理者名字**：Dashboard → Advanced → Admin Name。如果网站名称和管理者名字不同，填写此项有助于在 RSS 订阅器中有较好的呈现。比如 Feedly 中会显示 `网站名 / by 管理者名 / 时间`。
 - **图片防盗链**：Dashboard → Advanced → Anti Hotlinking: Yes。
 
-## 欢迎赞助
+## 欢迎使用支付宝赞助
 
-<figure>
-    <img src="https://raw.githubusercontent.com/shuibaco/donate/master/alipay.jpg" alt="支付宝二维码" />
-    <figcaption>使用支付宝赞助</figcaption>
-</figure>
+![alipay.jpg](https://raw.githubusercontent.com/shuibaco/donate/master/alipay.jpg)
