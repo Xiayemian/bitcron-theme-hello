@@ -6,14 +6,18 @@
 
 ```
 |-- 首页 / (+最新文章 +分类目录)
-	|-- 归档 /archive (所有文章)
-	|-- 订阅 /feed
-	|-- 404 /404 (找不到该页面)
+    |-- 归档 /archive (所有文章)
+    |-- 订阅 /feed
+    |-- 404 /404 (找不到该页面)
 ```
+
+## 在线预览
+
+[theme-hello.bitcron.com](https://theme-hello.bitcron.com)
 
 ## 安装配置
 
-[下载](https://github.com/shuibaco/bitcron-theme-hello) template 文件夹，解压后放入根目录中。正确形式应为 `根目录/template/index.jade`。
+从 [GitHub](https://github.com/shuibaco/bitcron-theme-hello) 下载 template 文件夹，解压后放入根目录中。正确形式应为 `根目录/template/index.jade`。
 
 ### 基本
 
@@ -32,12 +36,12 @@
 - **各分类页面显示文章数**：category.jade 第7行 `+posts.set_min_per_page(30)`
 - **搜索页面显示文章数**：result.jade 第12行 `limit=30`
 - **point colour**：style.scss 第2行 `$pcolour: #ff0000;`
-- **图片样式**：使用以下代码插入图片则拥有100%宽度
+- **图片样式**：使用以下代码插入图片则拥有100%宽度。
 
 ```html
 <figure>
-	<img src="图片地址" alt="对应文字说明" />
-	<figcaption>描述</figcaption>
+    <img src="图片地址" alt="对应文字说明" />
+    <figcaption>描述</figcaption>
 </figure>
 ```
 
